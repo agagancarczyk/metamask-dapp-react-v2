@@ -1,0 +1,13 @@
+.display {
+  /* calculated height: view height minus 128 (68*2) px */
+  border: 1px solid rgb(224, 157, 0);
+  height: calc(100% - 136px);
+  padding: 16px;
+}
+
+.detailsHeading {
+  background: linear-gradient(to right, #2bf9f9, #e757fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
